@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_public_logins",
+  "info": {
+    "displayName": "Login",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "email_login": {
+      "type": "email",
+      "required": true,
+      "minLength": 1,
+      "default": "email@email.com",
+      "unique": false
+    }
+  },
+  "config": {}
+}

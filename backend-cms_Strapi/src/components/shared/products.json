@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_products",
+  "info": {
+    "displayName": "Products"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cuantity": {
+      "type": "integer"
+    },
+    "bt_link": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

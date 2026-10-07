@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_product_grids",
+  "info": {
+    "displayName": "Product Grid",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "categoria": {
+      "type": "string"
+    },
+    "categoria_slug": {
+      "type": "string"
+    },
+    "limite": {
+      "type": "integer"
+    },
+    "text_block": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_enlaces_enlaces",
+  "info": {
+    "displayName": "enlaces"
+  },
+  "options": {},
+  "attributes": {
+    "home": {
+      "type": "string"
+    },
+    "productos": {
+      "type": "string"
+    },
+    "producto_info": {
+      "type": "string"
+    },
+    "categorias": {
+      "type": "string"
+    },
+    "sobre_nosotros": {
+      "type": "string"
+    },
+    "contacto": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

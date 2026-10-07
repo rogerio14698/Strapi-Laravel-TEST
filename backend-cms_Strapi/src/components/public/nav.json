@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_public_navs",
+  "info": {
+    "displayName": "nav"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "enlace_publico": {
+      "type": "component",
+      "component": "enlaces.enlaces",
+      "repeatable": false
+    },
+    "login_user": {
+      "type": "component",
+      "component": "public.login",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

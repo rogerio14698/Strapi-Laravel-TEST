@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_public_direccions",
+  "info": {
+    "displayName": "Dirección"
+  },
+  "options": {},
+  "attributes": {
+    "email_empresa": {
+      "type": "email"
+    },
+    "calle": {
+      "type": "string"
+    },
+    "provincia": {
+      "type": "string"
+    },
+    "Ciudad": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

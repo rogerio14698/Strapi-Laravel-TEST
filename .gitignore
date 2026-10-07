@@ -1,0 +1,44 @@
+# Environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Dependencies
+**/node_modules/
+/frontend-app/vendor/
+
+# Strapi generated files
+/backend-cms_Strapi/.strapi/
+/backend-cms_Strapi/.tmp/
+/backend-cms_Strapi/data.db
+/backend-cms_Strapi/data.db-shm
+/backend-cms_Strapi/data.db-wal
+/backend-cms_Strapi/dist/
+/backend-cms_Strapi/build/
+/backend-cms_Strapi/exports/
+/backend-cms_Strapi/.strapi-updater.json
+/backend-cms_Strapi/public/uploads/*
+!/backend-cms_Strapi/public/uploads/.gitkeep
+
+# Laravel generated files
+/frontend-app/bootstrap/cache/*.php
+/frontend-app/storage/framework/cache/data/*
+/frontend-app/storage/framework/sessions/*
+/frontend-app/storage/framework/testing/*
+/frontend-app/storage/framework/views/*
+/frontend-app/storage/logs/*.log
+/frontend-app/public/build/
+/frontend-app/public/hot
+/frontend-app/public/storage
+/frontend-app/.phpunit.cache/
+/frontend-app/.phpunit.result.cache
+
+# Logs, caches, and local editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.phpunit.result.cache
